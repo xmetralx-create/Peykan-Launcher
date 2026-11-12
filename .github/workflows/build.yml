@@ -28,7 +28,7 @@ jobs:
           gradle-version: 8.9
 
       - name: Extract project
-        run: unzip -q Peykan-Launcher-with-logo.zip
+        run: unzip -q Peykan-Launcher-fixed.zip
 
       - name: Build APK
         run: gradle -p JavaCraftFA assembleDebug
